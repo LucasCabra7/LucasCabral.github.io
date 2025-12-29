@@ -1,13 +1,25 @@
-header img {
-  border-radius: 50%;
-  width: 160px;
-  height: 160px;
-  object-fit: cover;
+/* 1. IMPORTAÇÃO DE FONTE (Inter - Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+/* 2. CONFIGURAÇÕES GERAIS */
+:root {
+  --primary-color: #0077b5;   /* Azul LinkedIn */
+  --text-dark: #1f2937;       /* Cinza quase preto */
+  --text-medium: #4b5563;     /* Cinza médio */
+  --bg-sidebar: #f8fafc;      /* Fundo muito claro */
+  --bg-hover: #e0e7ff;        /* Fundo azul claro para hover */
+}
+
+* {
+  box-sizing: border-box; /* Garante que padding não aumente a largura dos elementos */
 }
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', sans-serif; /* Fonte mais moderna */
+  color: var(--text-dark);
+  line-height: 1.6;
+  background-color: #fff;
 }
 
 .container {
@@ -15,12 +27,19 @@ body {
   min-height: 100vh;
 }
 
-/* LADO ESQUERDO */
+/* 3. LADO ESQUERDO (SIDEBAR) */
 .sidebar {
   width: 30%;
-  background: #f5f7fa;
+  background: var(--bg-sidebar);
   padding: 40px 20px;
   text-align: center;
+  border-right: 1px solid #e5e7eb; /* Linha sutil separando */
+  
+  /* Truque para deixar a barra fixa enquanto rola o texto */
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto; /* Permite rolar a sidebar se a tela for pequena */
 }
 
 .profile-pic {
@@ -29,54 +48,144 @@ body {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 20px;
+  border: 4px solid #fff; /* Borda branca para destaque */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
-.subtitle {
-  color: #666;
-}
-
-.links {
-  list-style: none;
-  padding: 0;
-}
-
-.links li {
+.sidebar h1 {
+  font-size: 1.5rem;
   margin: 10px 0;
-}
-
-/* LADO DIREITO */
-.content {
-  width: 70%;
-  padding: 40px;
+  color: var(--text-dark);
 }
 
 .academic {
-  font-size: 14px;
-  color: #555;
-  line-height: 1.6;
-  margin: 15px 0 25px;
+  font-size: 0.9rem;
+  color: var(--text-medium);
+  line-height: 1.8;
+  margin: 20px 0;
+  text-align: left; /* Alinhado a esquerda fica mais fácil de ler dados */
+  display: inline-block; /* Centraliza o bloco de texto, mas mantém o texto à esquerda */
 }
 
 .academic .focus {
+  display: block;
+  margin-top: 8px;
   font-style: italic;
-  color: #666;
+  color: var(--primary-color);
+  font-weight: 500;
 }
 
+/* Ícones Sociais (Estilo Botão Redondo) */
 .social-icons {
   display: flex;
   justify-content: center;
-  gap: 18px;
-  margin-top: 20px;
+  gap: 15px;
+  margin-top: 30px;
 }
 
 .social-icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #fff;
   color: #333;
-  font-size: 26px;
-  transition: color 0.3s ease, transform 0.3s ease;
+  font-size: 20px;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .social-icons a:hover {
-  color: #0077b5; /* LinkedIn blue */
+  background-color: var(--primary-color);
+  color: #fff;
   transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 119, 181, 0.3);
 }
 
+/* 4. LADO DIREITO (CONTEÚDO) */
+.content {
+  width: 70%;
+  padding: 60px 80px; /* Mais espaço interno */
+  max-width: 900px; /* Evita que o texto fique largo demais em monitores grandes */
+}
+
+.content h1, .content h2, .content h3 {
+  color: #111827;
+  margin-top: 1.5em;
+}
+
+.content p, .content li {
+  color: var(--text-medium);
+  font-size: 1.05rem;
+}
+
+/* 5. NOVOS ESTILOS: SKILLS E PROJETOS (Para usar no README) */
+
+/* Badges de Skills */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.skill-tag {
+  background-color: #f3f4f6;
+  color: #374151;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: 1px solid #e5e7eb;
+  transition: all 0.2s;
+}
+
+.skill-tag:hover {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+/* Cards de Projetos */
+.project-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-left: 5px solid var(--primary-color); /* Detalhe colorido */
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  font-size: 1.3rem;
+}
+
+/* 6. RESPONSIVIDADE (CELULAR) */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative; /* Deixa de ser sticky no celular */
+    padding: 40px 20px;
+  }
+
+  .content {
+    width: 100%;
+    padding: 30px 20px;
+  }
+}
