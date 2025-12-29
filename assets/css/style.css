@@ -1,107 +1,195 @@
-/* RESET */
+/* =========================================
+   1. IMPORTAÇÃO DE FONTE E VARIÁVEIS
+   ========================================= */
+/* Fonte moderna "Inter" - Padrão em tecnologia */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+:root {
+  --primary-color: #0077b5;    /* Azul LinkedIn */
+  --text-dark: #111827;        /* Preto suave */
+  --text-gray: #4b5563;        /* Cinza para textos */
+  --bg-sidebar: #f8fafc;       /* Fundo da barra lateral */
+  --border-color: #e5e7eb;     /* Cor das bordas */
+}
+
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
-/* BASE */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-  background-color: #f8f9fa;
-  color: #222;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  color: var(--text-dark);
   line-height: 1.6;
+  background-color: #fff;
 }
 
-/* LAYOUT */
+/* =========================================
+   2. ESTRUTURA (LAYOUT)
+   ========================================= */
 .container {
   display: flex;
-  max-width: 1200px;
-  margin: 40px auto;
-  background: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-  overflow: hidden;
+  min-height: 100vh;
 }
 
-/* SIDEBAR */
+/* =========================================
+   3. SIDEBAR (LADO ESQUERDO)
+   ========================================= */
 .sidebar {
-  width: 320px;
-  background: #f1f3f5;
-  padding: 30px 25px;
+  width: 30%;
+  background-color: var(--bg-sidebar);
+  padding: 40px 20px;
   text-align: center;
+  border-right: 1px solid var(--border-color);
+
+  /* Sidebar Fixa (Sticky) */
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
 }
 
-/* FOTO */
+/* Foto */
 .profile-pic {
   width: 160px;
   height: 160px;
-  object-fit: cover;
   border-radius: 50%;
+  object-fit: cover;
   margin-bottom: 20px;
   border: 4px solid #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-/* TÍTULO */
+/* Nome */
 .sidebar h1 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin: 15px 0 5px;
+  color: var(--text-dark);
 }
 
-/* INFO ACADÊMICA */
+/* Dados Acadêmicos */
 .academic {
-  font-size: 14px;
-  color: #555;
-  margin-bottom: 20px;
+  font-size: 0.95rem;
+  color: var(--text-gray);
+  line-height: 1.8;
+  margin: 20px 0 30px;
+  text-align: left;
+  display: inline-block;
 }
 
 .academic .focus {
   display: block;
-  margin-top: 5px;
+  margin-top: 10px;
+  font-style: italic;
   font-weight: 600;
-  color: #000;
+  color: var(--primary-color);
 }
 
-/* LINKS SOCIAIS */
-.links {
-  list-style: none;
+/* Ícones Sociais (Botões) */
+.social-icons {
   display: flex;
   justify-content: center;
-  gap: 18px;
-  margin-top: 20px;
-  padding: 0;
+  gap: 12px;
 }
 
-.links li a {
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  color: #333;
+  font-size: 1.1rem;
   text-decoration: none;
-  font-size: 20px;
-  color: #333;
-  transition: color 0.3s ease, transform 0.3s ease;
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
-.links li a:hover {
-  color: #0d6efd;
+.social-icons a:hover {
+  background-color: var(--primary-color);
+  color: #fff;
   transform: translateY(-3px);
+  border-color: var(--primary-color);
 }
 
-/* CONTEÚDO PRINCIPAL */
+/* =========================================
+   4. CONTEÚDO (LADO DIREITO - MARKDOWN PADRÃO)
+   ========================================= */
 .content {
-  flex: 1;
-  padding: 40px;
+  width: 70%;
+  padding: 60px 80px;
+  max-width: 1000px;
 }
 
+/* Títulos */
+.content h1, .content h2, .content h3 {
+  color: var(--text-dark);
+  font-weight: 700;
+}
+
+/* Título de seções (Ex: Projetos, Tecnologias) */
 .content h2 {
-  font-size: 22px;
-  margin-bottom: 10px;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid #f3f4f6; /* Linha sutil para separar seções */
+  padding-bottom: 10px;
+  font-size: 1.8rem;
 }
 
+/* Título dos Projetos específicos */
+.content h3 {
+  margin-top: 1.5em;
+  font-size: 1.3rem;
+  color: #1f2937;
+}
+
+/* Parágrafos */
 .content p {
-  margin-bottom: 15px;
-  color: #333;
+  font-size: 1.05rem;
+  color: var(--text-gray);
+  margin-bottom: 1.2em;
 }
 
-/* RESPONSIVO */
+/* Listas (Suas Tecnologias) */
+.content ul {
+  padding-left: 20px;
+  margin-bottom: 1.5em;
+}
+
+.content li {
+  margin-bottom: 8px; /* Espaço entre itens da lista para não ficar grudado */
+  color: var(--text-gray);
+}
+
+/* Links no texto */
+.content a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
+/* Código em linha (caso use `assim`) */
+code {
+  background-color: #f3f4f6;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9em;
+  color: #c7254e;
+}
+
+/* =========================================
+   5. RESPONSIVIDADE (CELULAR)
+   ========================================= */
 @media (max-width: 900px) {
   .container {
     flex-direction: column;
@@ -109,5 +197,20 @@ body {
 
   .sidebar {
     width: 100%;
+    height: auto;
+    position: relative;
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+    padding: 30px 20px;
+  }
+
+  .content {
+    width: 100%;
+    padding: 40px 20px;
+  }
+  
+  .content h2 {
+    margin-top: 1.5em;
+    font-size: 1.5rem;
   }
 }
