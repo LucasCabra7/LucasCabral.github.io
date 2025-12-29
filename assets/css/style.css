@@ -49,3 +49,15 @@ body {
   width: 70%;
   padding: 40px;
 }
+
+.academic {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  margin: 15px 0 25px;
+}
+
+.academic .focus {
+  font-style: italic;
+  color: #666;
+}
