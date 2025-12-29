@@ -1,4 +1,10 @@
 title: Lucas Silva Cabral
-description: Cursando Bacharelado em Sistema de Informação, com ênfase em Ciências de Dados e Desenvolvimento de Software
+description: Desenvolvedor de Software
 logo: /perfil.jpeg
+
+university: Universidade Federal de Pernambuco (UFPE)
+gpa: Média Geral: 8,26
+degree: Bacharelado em Sistema de Informação
+focus: Ênfase em Ciências de Dados e Desenvolvimento de Software
+
 theme: jekyll-theme-minimal
