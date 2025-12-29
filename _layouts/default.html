@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- COLUNA ESQUERDA -->
+    <aside class="sidebar">
+      <img src="{{ site.logo }}" alt="Foto de {{ site.title }}" class="profile-pic">
+
+      <h1>{{ site.title }}</h1>
+      <p class="subtitle">{{ site.description }}</p>
+
+      <ul class="links">
+        <li><a href="https://github.com/LucasCabra7">GitHub</a></li>
+        <li><a href="#">LinkedIn</a></li>
+      </ul>
+    </aside>
+
+    <!-- COLUNA DIREITA -->
+    <main class="content">
+      {{ content }}
+    </main>
+
+  </div>
+</body>
+</html>
