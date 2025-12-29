@@ -5,12 +5,12 @@ Sou analítico e comunicativo, gosto de enfrentar desafios e colaborar em equipe
 ---
 ## 💻 Tecnologias
 
-## Desenvolvimento
+### 1. Desenvolvimento
 
 * **Linguagens:** Python (Intermediário), C++ (Intermediário), C (Intermediário), R (Intermediário), SQL (Intermediário), JavaScript (Intermediário), TypeScript (Intermediário), NodeJs (Intermediário), CSS (Intermediário) 
 * **Frameworks & Bibliotecas:** Matplotlib, scikit-learn, Searbon, Pandas, Pygame, Express.Js (Node.js), Axios, React, React Native, Tailwind, styled-components 
 
-## Organização de projeto
+### 2. Organização de projeto
 
 * **Ferramentas:** Docker (Intermediário), Prisma ORM (Intermediário), Expo Go (Intermediário), Insomnia (Intermediário), Postamn (Intermediário), NPM (Node Package Manager), Discord (Avançado), Trello (Intermediário), Notion (Avançado), GitHub (Avançado), Git (Avançado), Figma (Intermediário), Canva (Avançado)
 
