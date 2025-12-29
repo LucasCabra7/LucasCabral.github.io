@@ -3,6 +3,18 @@
 Sou analítico e comunicativo, gosto de enfrentar desafios e colaborar em equipes multidisciplinares. Organizo meu trabalho com adaptabilidade e iniciativa, buscando aprender e compartilhar conhecimento. Dessa forma, contribuo para soluções criativas e resultados consistentes.
 
 ---
+
+## 💻 Hard skills
+
+### Desenvolvimento
+* **Linguagens:** Python (Intermediário), C++ (Intermediário), C (Intermediário), C# (Inciante), R (Intermediário), SQL (Intermediário), JavaScript (Intermediário), TypeScript (Inciante), NodeJs (Intermediário), CSS (Intermediário)
+* **Frameworks e Bibliotecas:** Matplotlib, Scikit-learn, Searbon, Pandas, Pygame, Express.Js, Axios, React, React Native, Tailwind, Styled-components
+
+### Organização
+* **Ferramentas:** Docker (Intermediário), Prisma ORM (Intermediário), Expo Go (Intermediário), Insomnia (Intermediário), Postman (Intermediário), NPM (Node Package Manager), Discord (Avançado), Trello (Intermediário), Notion (Avançado), Git (Avançado), GitHub (Avançado)
+
+---
+
 ## 🏆 Projetos
 
 ### Bora Impactar - Lojinha Social (Prefeitura do Recife - PE)
