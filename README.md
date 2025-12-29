@@ -1,4 +1,8 @@
-## 🙋‍♂️ Perfil
+---
+layout: default
+---
+
+## 👋 Perfil
 
 Sou analítico e comunicativo, gosto de enfrentar desafios e colaborar em equipes multidisciplinares. Organizo meu trabalho com adaptabilidade e iniciativa, buscando aprender e compartilhar conhecimento. Dessa forma, contribuo para soluções criativas e resultados consistentes.
 
