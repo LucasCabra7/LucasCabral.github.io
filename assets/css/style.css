@@ -1,6 +1,44 @@
-header img {
-  border-radius: 50%;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* LADO ESQUERDO */
+.sidebar {
+  width: 30%;
+  background: #f5f7fa;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.profile-pic {
   width: 160px;
   height: 160px;
+  border-radius: 50%;
   object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  color: #666;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+}
+
+.links li {
+  margin: 10px 0;
+}
+
+/* LADO DIREITO */
+.content {
+  width: 70%;
+  padding: 40px;
 }
