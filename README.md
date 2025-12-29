@@ -62,4 +62,4 @@ Desenvolvi estudos voltados à análise e modelagem de problemas de regressão c
 ---
 
 
-> *Este portfólio é hospedado via GitHub Pages e desenvolvido com Jekyll.*
+> *Este portfólio foi desenvolvido exclusivamente para fins de avaliação técnica, sem fins lucrativos. Todos os direitos reservado ao autor.*
