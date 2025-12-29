@@ -3,7 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ site.title }}</title>
+
+  <!-- CSS principal -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <!-- Font Awesome (ícones) -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4xD4Z1g1XG8y4Z8+2x8iQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -11,22 +20,39 @@
 
     <!-- COLUNA ESQUERDA -->
     <aside class="sidebar">
-      <img src="{{ site.logo | relative_url }}" alt="Foto de {{ site.title }}" class="profile-pic">
 
+      <!-- Foto -->
+      <img src="{{ site.logo | relative_url }}"
+           alt="Foto de {{ site.title }}"
+           class="profile-pic">
+
+      <!-- Nome -->
       <h1>{{ site.title }}</h1>
+
+      <!-- Dados acadêmicos -->
       <p class="academic">
-  🎓 {{ site.university }}<br>
-  📊 {{ site.gpa }}<br>
-  📘 {{ site.degree }}<br>
-  <span class="focus">{{ site.focus }}</span>
-</p>
+        🎓 {{ site.university }}<br>
+        📊 Média: {{ site.gpa }}<br>
+        📘 {{ site.degree }}<br>
+        <span class="focus">{{ site.focus }}</span>
+      </p>
 
+      <!-- ÍCONES SOCIAIS -->
+      <div class="social-icons">
+        <a href="https://github.com/LucasCabra7" target="_blank" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
 
-      <ul class="links">
-        <li><a href="https://github.com/LucasCabra7">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/lucas-cabral-987a75236/">LinkedIn</a></li>
-        <li><a href="https://www.notion.so/Sistemas-de-Informa-o-4-Per-odo-201c8a2b73e380098f27f7e751e2ab1e?source=copy_link">Notion</a></li>
-      </ul>
+        <a href="https://www.linkedin.com/in/lucas-cabral-987a75236/" target="_blank" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+        <a href="https://www.notion.so/Sistemas-de-Informa-o-4-Per-odo-201c8a2b73e380098f27f7e751e2ab1e?source=copy_link"
+           target="_blank" aria-label="Notion">
+          <i class="fa-solid fa-book"></i>
+        </a>
+      </div>
+
     </aside>
 
     <!-- COLUNA DIREITA -->
