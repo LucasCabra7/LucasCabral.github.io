@@ -19,7 +19,9 @@ Sou analítico e comunicativo, gosto de enfrentar desafios e colaborar em equipe
 ## 🏆 Projetos
 
 ### Bora Impactar - Lojinha Social (Prefeitura do Recife - PE)
-Consegui desenvolver e otimizar uma aplicação para cadastro de produtos de ONG’s, conforme medido pela entrega de uma plataforma completa em Front-End (React, Tailwind), Back-End (Node.js) e Banco de Dados (PostgreSQL com Docker), ao atuar como Full-Stack e Product Owner em uma equipe de 6 membros. Nosso esforço foi reconhecido com o **1º lugar no ShowCase de Soluções da Prefeitura do Recife** e com **Menção Honrosa de Melhor Pitch**.
+Desenvolvi e otimizei uma aplicação voltada ao cadastro e gerenciamento de produtos de ONG’s, resultando na entrega de uma plataforma completa com Front-End em React e Tailwind, Back-End em Node.js e Banco de Dados em PostgreSQL com Docker. Atuei como **Full Stack** e **Product Owner** em uma equipe de seis integrantes, sendo responsável tanto pela implementação técnica quanto pelo alinhamento de requisitos entre os stakeholders e priorização das entregas.
+
+O projeto obteve reconhecimento externo, conquistando o **1º lugar no ShowCase de Soluções** da Prefeitura do Recife, além de **Menção Honrosa pelo Melhor Pitch**, evidenciando o impacto social da solução, a qualidade técnica da aplicação e a eficácia do trabalho em equipe.
 
 ### Atualização e Evolução do SGMP - Sistema Gerenciamento e Manutenção Predial (CINOVA)
 Iniciei o projeto com o desenvolvimento de um sistema orientado a objetos voltado ao gerenciamento de ordens de serviço entre moradores e técnicos especializados, com foco na rotina de manutenção condominial. A implementação das funcionalidades, utilizando a linguagem C++.
