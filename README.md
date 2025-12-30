@@ -35,14 +35,7 @@ Como próximos passos, o projeto seguirá em constante evolução, com foco no a
 O projeto tem como objetivo desenvolver, de forma colaborativa com equipe de 6 estudantes e 2 professores coordenadores, um sistema informatizado voltado à otimização e ao uso racional dos recursos físicos e laboratoriais do ambiente acadêmico. A iniciativa busca inicialmente promover o uso mais eficiente, transparente e democrático dos mais de 200 laboratórios do Centro de Artes e Comunicação (CAC) da UFPE, contribuindo para a sustentabilidade, a inovação e o aprimoramento da gestão universitária. Além de gerar impacto institucional, o projeto promove aprendizado prático em desenvolvimento de software e gestão eficiente, fortalecendo a formação dos estudantes envolvidos.
 
 ### Projetos de Ciências de Dados - Universidade Federal de Pernambuco
-Desenvolvi diversos projetos na Disciplina de Ciência de Dados no contexto acadêmico, com foco em todo o ciclo de preparação, análise e modelagem dos dados.
-
-No pré-processamento, realizei imputação de valores ausentes, avaliando a qualidade das imputações por meio do cálculo do RMSE entre valores reais e imputados, garantindo maior confiabilidade aos conjuntos de dados. Também foram aplicadas técnicas de codificação de variáveis categóricas, como One-Hot Encoding e Dummy Encoding, além de padronização e escalonamento dos dados com o StandardScaler, preparando as variáveis para algoritmos sensíveis à escala.
-
-Os projetos incluíram ainda técnicas de balanceamento de dados, visando reduzir vieses causados por distribuições desiguais das classes, bem como redução de dimensionalidade por meio de Filter Methods (como correlação e seleção estatística de atributos) e Wrapper Methods, avaliando subconjuntos de variáveis com base no desempenho do modelo.
-
-A etapa de Exploratory Data Analysis (EDA) foi conduzida de forma aprofundada, utilizando estatísticas descritivas e visualizações para identificar padrões, correlações, outliers e comportamentos relevantes nos dados. Para a modelagem, foi utilizado de forma consistente o algoritmo K-Nearest Neighbors (KNN), aplicado tanto no treinamento quanto no teste dos dados, permitindo analisar o impacto das diferentes técnicas de pré-processamento e seleção de atributos no desempenho do modelo.
-Esses projetos fortaleceram minhas competências em preparação de dados, análise exploratória, engenharia de atributos e avaliação de modelos, consolidando uma base sólida em Ciência de Dados com foco em boas práticas, análise crítica e tomada de decisão orientada por dados.
+Desenvolvi projetos acadêmicos em Ciência de Dados abrangendo todo o ciclo de preparação, análise e modelagem de dados. Atuei no pré-processamento com imputação de valores ausentes (avaliada por RMSE), codificação de variáveis categóricas (One-Hot e Dummy Encoding), além de padronização e escalonamento com StandardScaler. Realizei balanceamento de classes e redução de dimensionalidade por meio de métodos Filter e Wrapper. Conduzi análises exploratórias (EDA) com estatísticas e visualizações para identificação de padrões e outliers. Na modelagem, utilizei o algoritmo KNN para avaliar o impacto das diferentes técnicas no desempenho dos modelos, consolidando competências em preparação de dados, análise crítica e tomada de decisão orientada por dados.
 
 ---
 
@@ -60,4 +53,4 @@ Desenvolvi estudos voltados à análise e modelagem de problemas de regressão c
 ---
 
 
-> *Este portfólio foi desenvolvido exclusivamente para fins de avaliação técnica, sem fins lucrativos. Todos os direitos reservado ao autor.*
+> *Todos os direitos reservado ao autor.*
