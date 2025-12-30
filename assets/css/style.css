@@ -214,3 +214,70 @@ code {
     font-size: 1.5rem;
   }
 }
+
+/* =========================================
+   8. MODAL DE CONQUISTAS
+   ========================================= */
+
+/* Fundo escuro atrás do modal */
+.modal-overlay {
+  display: none; /* Começa invisível */
+  position: fixed;
+  z-index: 1000; /* Fica em cima de tudo */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Preto com transparência */
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(5px); /* Efeito de desfoque no fundo */
+}
+
+/* A caixa branca do conteúdo */
+.modal-content {
+  background-color: #fff;
+  width: 90%;
+  max-width: 800px;
+  max-height: 90vh; /* Altura máxima de 90% da tela */
+  overflow-y: auto; /* Permite rolar se tiver muita foto */
+  padding: 30px;
+  border-radius: 12px;
+  position: relative;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  animation: modalFadeIn 0.3s ease;
+}
+
+@keyframes modalFadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Botão de fechar (X) */
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #aaa;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.close-btn:hover {
+  color: #000;
+}
+
+/* Título dentro do modal */
+.modal-content h2 {
+  margin-top: 0;
+  border-bottom: 2px solid #f3f4f6;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+  color: var(--text-dark);
+}
+
+/* --- REAPROVEITANDO A GRID QUE JÁ CRIAMOS --- */
+/* Certifique-se de que o CSS da .gallery-grid (que passei antes) está no arquivo. */
+/* Se não estiver, me avise que mando novamente! */
