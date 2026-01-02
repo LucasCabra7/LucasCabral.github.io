@@ -15,7 +15,7 @@ Estudante de Sistemas de Informação pela UFPE, com foco em desenvolvimento de 
 
 ---
 
-## 🏆 Projetos
+## 🏆 Projetos acadêmicos
 
 ### Bora Impactar - Lojinha Social (Prefeitura do Recife - PE)
 Desenvolvi e otimizei uma aplicação voltada ao cadastro e gerenciamento de produtos de ONG’s, resultando na entrega de uma plataforma completa com Front-End em React e Tailwind, Back-End em Node.js e Banco de Dados em PostgreSQL com Docker. Atuei como **Full Stack** e **Product Owner** em uma equipe de seis integrantes, sendo responsável tanto pela implementação técnica quanto pelo alinhamento de requisitos entre os stakeholders e priorização das entregas.
