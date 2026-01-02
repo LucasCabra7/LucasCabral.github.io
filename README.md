@@ -1,6 +1,6 @@
 ## 👋 Perfil
 
-Sou analítico e comunicativo, gosto de enfrentar desafios e colaborar em equipes multidisciplinares. Organizo meu trabalho com adaptabilidade e iniciativa, buscando aprender e compartilhar conhecimento. Dessa forma, contribuo para soluções criativas e resultados consistentes.
+Estudante de Sistemas de Informação pela UFPE, com foco em desenvolvimento de software e ciência de dados, experiência em projetos full stack, análise de dados e atuação em times ágeis. Tenho perfil analítico, boa comunicação e vivência prática como Product Owner e Scrum Master em projetos com impacto social e institucional.
 
 ---
 
@@ -31,7 +31,6 @@ Atuando como **Full-Stack** e **Scrum Master**, além da evolução técnica, ho
 Como próximos passos, o projeto seguirá em constante evolução, com foco no aprimoramento do backend por meio da utilização de C#, visando consolidar uma aplicação robusta, escalável e com suporte completo às plataformas iOS e Android.
 
 ### Gira: Gestão Inteligente de Recursos Acadêmicos - Projeto de Extensão UFPE
-
 O projeto tem como objetivo desenvolver, de forma colaborativa com equipe de 6 estudantes e 2 professores coordenadores, um sistema informatizado voltado à otimização e ao uso racional dos recursos físicos e laboratoriais do ambiente acadêmico. A iniciativa busca inicialmente promover o uso mais eficiente, transparente e democrático dos mais de 200 laboratórios do Centro de Artes e Comunicação (CAC) da UFPE, contribuindo para a sustentabilidade, a inovação e o aprimoramento da gestão universitária. Além de gerar impacto institucional, o projeto promove aprendizado prático em desenvolvimento de software e gestão eficiente, fortalecendo a formação dos estudantes envolvidos.
 
 ### Projetos de Ciências de Dados - Universidade Federal de Pernambuco
