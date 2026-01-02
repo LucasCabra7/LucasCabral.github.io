@@ -336,3 +336,35 @@ code {
   color: #6b7280;
 }
 
+/* 9. BLOCO DE CONTATO (SIDEBAR) */
+
+.contact-info {
+  margin: 15px 0 25px 0;
+  text-align: left; /* Alinha o bloco à esquerda */
+  display: inline-block; /* Mantém o bloco centralizado na sidebar */
+  width: 100%; /* Garante alinhamento com os textos acima */
+  max-width: 220px; /* Limita a largura para ficar bonito */
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* Espaço entre ícone e texto */
+  margin-bottom: 8px;
+  color: var(--text-gray); /* Usa a mesma cor cinza do texto */
+  font-size: 0.9rem;
+  text-decoration: none; /* Tira o sublinhado do link */
+  transition: color 0.2s ease;
+}
+
+.contact-item:hover {
+  color: var(--primary-color); /* Fica azul ao passar o mouse */
+  transform: translateX(3px); /* Move levemente para a direita */
+}
+
+.contact-item i {
+  width: 18px; /* Garante que os ícones tenham a mesma largura */
+  text-align: center;
+  color: var(--primary-color); /* Ícone azul */
+}
+
